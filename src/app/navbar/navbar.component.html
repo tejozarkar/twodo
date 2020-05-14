@@ -1,0 +1,9 @@
+<div class="navbar-wrap">
+    <div class="logo">
+        twodo
+    </div>
+    <a *ngFor="let nav of navList"
+       class="nav-link ml-3"
+       [routerLink]="nav.link"
+       routerLinkActive="active">{{nav.text}}</a>
+</div>

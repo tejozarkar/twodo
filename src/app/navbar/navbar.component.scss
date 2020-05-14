@@ -1,0 +1,24 @@
+@import './../../assets/styles/variables.scss';
+
+.navbar-wrap {
+  background: $primary-color;
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  box-sizing: border-box;
+  color: $primary-text;
+  .logo{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2.5em;
+  }
+  a.nav-link{
+    color: white;
+    &:hover{
+        color: $off-color;
+    }
+    &.active{
+        color: $secondary-color;
+        font-weight: bold;
+    }
+  }
+}

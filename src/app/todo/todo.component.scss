@@ -1,0 +1,15 @@
+@import "./../../assets/styles/variables.scss";
+
+.add-todo-button {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: $secondary-color;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
